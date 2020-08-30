@@ -18,4 +18,6 @@ int main()
         sum+=*(ptr+i);
     }
     printf("Sum is %d",sum);
+    free(ptr);
+    return 0;
 }
